@@ -71,8 +71,8 @@ export function ProductCarousel() {
     delay: 5000,
     stopOnInteraction: true,
     stopOnMouseEnter: true,
-  });
-
+  }) as any;
+  
   return (
     <div ref={ref} className="w-full py-8">
       <Carousel
